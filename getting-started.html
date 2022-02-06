@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>2 Getting Started | Storymapping with Pavee Roads - A Toolkit</title>
+  <meta name="description" content="This is a toolkit for creating online visual mapping narratives, called storymaps. All resources included are free, and most of the mapping tools are open source. These tools are adapted from “Hands-On Data Visualization” by Jack Dougherty and Ily Ilyankou." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="2 Getting Started | Storymapping with Pavee Roads - A Toolkit" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a toolkit for creating online visual mapping narratives, called storymaps. All resources included are free, and most of the mapping tools are open source. These tools are adapted from “Hands-On Data Visualization” by Jack Dougherty and Ily Ilyankou." />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="2 Getting Started | Storymapping with Pavee Roads - A Toolkit" />
+  
+  <meta name="twitter:description" content="This is a toolkit for creating online visual mapping narratives, called storymaps. All resources included are free, and most of the mapping tools are open source. These tools are adapted from “Hands-On Data Visualization” by Jack Dougherty and Ily Ilyankou." />
+  
+
+<meta name="author" content="Dr Sasha Brown" />
+
+
+<meta name="date" content="2022-02-06" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="editing-the-storymap.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Storymapping Toolkit</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction - What is Storymapping?</a></li>
+<li class="chapter" data-level="2" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>2</b> Getting Started</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="getting-started.html"><a href="getting-started.html#exploring-your-first-storymap---the-template"><i class="fa fa-check"></i><b>2.1</b> Exploring your first storymap - the template</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="editing-the-storymap.html"><a href="editing-the-storymap.html"><i class="fa fa-check"></i><b>3</b> Editing the Storymap</a></li>
+<li class="chapter" data-level="4" data-path="entering-places-and-other-data.html"><a href="entering-places-and-other-data.html"><i class="fa fa-check"></i><b>4</b> Entering places and other data</a></li>
+<li class="chapter" data-level="5" data-path="adding-images.html"><a href="adding-images.html"><i class="fa fa-check"></i><b>5</b> Adding images</a></li>
+<li class="chapter" data-level="6" data-path="github.html"><a href="github.html"><i class="fa fa-check"></i><b>6</b> github</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Storymapping with Pavee Roads - A Toolkit</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="getting-started" class="section level1" number="2">
+<h1><span class="header-section-number">2</span> Getting Started</h1>
+<p>The first step in designing and creating our storymap is to become familiar with the format, style and design abilities of the storymapping tool that we are going to be using.</p>
+<p>There are many different types of software and techniques that can be used to make storymaps, and deciding the form and tools is a major decision point in the storymapping project. In this toolkit guide, you will be using a storymapping tool and templates made by Jack Dougherty and Ilay Ilaynkou for their textbook <a href="https://handsondataviz.org/">“Hands-On Data Visualisation”</a>. There are other storymapping tools discussed in later chapters of this toolkit. Dougherty and Ilyankou set out ten aspects to take into account in choosing the tool:</p>
+<ul>
+<li>Easy to learn</li>
+<li>Free or affordable</li>
+<li>Powerful</li>
+<li>Supported</li>
+<li>Portable</li>
+<li>Secure and Private</li>
+<li>Collaborative</li>
+<li>Cross-Platform</li>
+<li>Open-Source</li>
+<li>Accessible for Visually-Impaired Readers (2022)</li>
+</ul>
+<p>These are all important to consider not only in choosing the tool, but also in how the tool is used. And for a quick summary of the storymaps made using this template: they focus on a good balance of these considerations, and are importantly relatively easy to learn and free.</p>
+<p>Explore below the storymap made by Michael Collins, in collaboration between the Pavee Roads Home project at Pavee Point and the Maynooth University Geography Department. The link to the storymap in the context of the project can be found <a href="https://paveeroads.paveepoint.ie/michaels-family-tree-storymap/">here</a>.</p>
+<iframe src="https://sashadb.github.io/Michael-Collins-family-tree-storymap/" width="100%" height="600px">
+</iframe>
+<p>What can you observe from the map? The main narrative occurs in the text and images that you can scroll through. Each narrative is separated into ‘chapters.’ And each chapter is linked to a specific ‘view’ of the map. This view centres on a specific point on the map, and also has a set ‘zoom,’ so the author has control not only over where the map is showing but also the context in the map. Does the map show landmarks and distances over one kilometre? Over one hundred kilometres? These are decisions you will be able to make as the storyteller and mapmaker.</p>
+<div id="exploring-your-first-storymap---the-template" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> Exploring your first storymap - the template</h2>
+<p>For your first storymap in this toolkit, you will be building off of a template provided to you.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="editing-the-storymap.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/02-gettingstarted.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["bookdown-demo.pdf", "bookdown-demo.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

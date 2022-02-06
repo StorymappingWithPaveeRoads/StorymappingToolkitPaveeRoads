@@ -1,0 +1,7 @@
+introduction---what-is-storymapping
+getting-started
+exploring-your-first-storymap---the-template
+editing-the-storymap
+entering-places-and-other-data
+adding-images
+github
