@@ -3,7 +3,8 @@ getting-started
 exploring-your-first-storymap---the-template
 editing-with-the-two-tabs---storymap-and-sheet
 video---adding-a-title-and-subtitle-to-your-storymap
-editing-the-storymap
+adding-data-to-the-storymap
+the-data-entry-tool
 entering-places-and-other-data
 adding-images
 github
