@@ -1,9 +1,0 @@
-introduction---what-is-storymapping
-getting-started
-exploring-your-first-storymap---the-template
-editing-with-the-two-tabs---storymap-and-sheet
-video---adding-a-title-and-subtitle-to-your-storymap
-adding-data-to-the-storymap
-the-data-entry-tool
-adding-descriptions
-video---adding-a-data-to-your-storymap
