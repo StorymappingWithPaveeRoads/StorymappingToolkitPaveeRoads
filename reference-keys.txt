@@ -5,6 +5,5 @@ editing-with-the-two-tabs---storymap-and-sheet
 video---adding-a-title-and-subtitle-to-your-storymap
 adding-data-to-the-storymap
 the-data-entry-tool
-entering-places-and-other-data
-adding-images
-github
+adding-descriptions
+video---adding-a-data-to-your-storymap
