@@ -6,7 +6,7 @@ video---adding-a-title-and-subtitle-to-your-storymap
 adding-data-to-the-storymap
 the-data-entry-tool
 adding-descriptions
-video---adding-a-data-to-your-storymap
+video---adding-data-to-your-storymap
 adding-images
 design-adding-images-to-your-storymap
 hosting-your-image-on-the-internet
@@ -20,5 +20,5 @@ administrating-the-storymapping-toolkit
 resetting-the-sheets
 all-storymapping-instructional-videos
 video---adding-a-title-and-subtitle-to-your-storymap-1
-video---adding-a-data-to-your-storymap-1
+video---adding-a-data-to-your-storymap
 video---adding-images-to-your-storymap-1
