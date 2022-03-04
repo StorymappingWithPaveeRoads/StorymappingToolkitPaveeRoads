@@ -7,3 +7,8 @@ adding-data-to-the-storymap
 the-data-entry-tool
 adding-descriptions
 video---adding-a-data-to-your-storymap
+adding-images
+hosting-your-image-on-the-internet
+how-to-host-your-image-on-imgur
+adding-a-hosted-image-to-the-storymap-sheet
+video---adding-images-to-your-storymap
